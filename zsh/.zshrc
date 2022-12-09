@@ -51,4 +51,4 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-
+eval "$(rbenv init - zsh)"
